@@ -1,0 +1,21 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+>> I=imread('Cataracts.jpg');
+>> imshow(I)
+Warning: MATLAB has disabled some advanced graphics rendering features by switching to
+software OpenGL. For more information, click here. 
+>> imshow(I)
+>> imtool(I);
+>> histogram(I)
+histogram(I)
+>> imshow(I)
+>> histogram(I)
+>> I_gray=imread('Cataracts.jpg',3);
+Error using imread (line 403)
+Too many input arguments.
+ 
+>> I_gray=imread('Cataracts.jpg');
+>> imshow(I_gray)
+>> imshow(I_gray)
+>> 
